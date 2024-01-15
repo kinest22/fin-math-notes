@@ -7,19 +7,19 @@ This repository contains materials on mathematical finance that may be useful fo
 All materials and notes are divided into 4 sections. 
 1. [Longreads](https://github.com/kinest22/fin-math-notes/tree/main/longreads)<br>
 These are fundamental works (mainly textbooks or subject-matter courses) that bring the reader broad understanding of the subject.
-<br>
+
 
 2. [Papers](https://github.com/kinest22/fin-math-notes/tree/main/papers)<br>
 These are research papers devoted to specific topics in mathematical finance field.
-<br>
+
 
 3. [Seminals]()<br>
 These are papers that are considered seminal in the academic literature due to their significant contribution to the mathematical finance evolvement.
-<br>
+
 
 4. [Essentials]()<br>
 These are handwritten notes on mathematical finance essential topics that are useful in understanding more advanced concepts one can encounter while studying materials from other sections.
-<br>
+
 
 ## License
 All materials presented in this repository were collected by the author of this repository of his own free will exclusively with good intentions. If you believe that any materials posted here are in violation of copyright, please let me know.
