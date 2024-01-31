@@ -31,18 +31,18 @@ $$
 
 ## From discrete to continuous compounding
 When the number of compounding periods per year increases without limit, continuous compounding occurs. Continuous compounding can be regarded as letting the compounding period become infinitesimally small. This can be achieved by taking the limit of $a(\tau, m)$ as $m$ goes to infinity: 
-$$\begin{align}
+$$\begin{split}
 \lim_{m\to\infty} a(\tau, m) &= \lim_{m\to\infty} \left( 1+\frac{r}{m} \right)^{m\tau}\\
 &=\left[ \lim_{m\to\infty} \left( 1+\frac{r}{m} \right)^{\frac{m}{r}} \right]^{m\tau \frac{r}{m}}\\
 &=e^{r\tau}
-\end{align}$$
+\end{split}$$
 
----
+
 >### Note on transformation (2) $\to$ (3)
 >Recalling from calculus that:
 $$\lim_{x\to\infty}\left(1+\frac{1}{x} \right)^{x}=e$$ we can introduce variable change $\rho=\frac{m}{r}$ such that:
 $$\left[ \lim_{m\to\infty} \left( 1+\frac{r}{m} \right)^{\frac{m}{r}} \right]^{m\tau \frac{r}{m}}=\left[ \lim_{\rho\to\infty} \left( 1+\frac{1}{\rho} \right)^{\rho} \right]^{r\tau}=e^{r\tau}$$ 
----
+
 
 The amount $P(\tau)$ after $\tau$ periods of continuous compounding can now be expressed in terms of the initial amount $P_0$ as:
 $$P(\tau) =P_0e^{r\tau}$$ which implies that accumulation function in terms of continuous compounding has the form of:
