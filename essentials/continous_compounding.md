@@ -5,10 +5,10 @@ It should be pointed out that there is no any rationale to use continuously comp
 
 ## Idea of interest compounding
 The idea of interest compounding could be formalized using accumulation function $a(t,n)$ that shows how many times the initial amount $P_0$ will increase after t years:
-$$a(\tau, m)=\left( 1+\frac{r}{m} \right)^{m\tau}$$ where:
-$\tau$ - overall length of time the interest is applied (in years),
-$m$ - compounding frequency,
-$r$ - annual interest rate.
+$$a(\tau, m)=\left( 1+\frac{r}{m} \right)^{m\tau}$$ where: <br>
+$\tau$ - overall length of time the interest is applied (in years), <br>
+$m$ - compounding frequency, <br>
+$r$ - annual interest rate. <br>
 
 For a special case when compounding occures once per year ($m=1$):
 $$a(\tau, 1)=\left( 1+r \right)^{\tau}=(1+r)(1+r)(1+r)...$$ 
@@ -29,15 +29,13 @@ $$
 
 ## From discrete to continuous compounding
 When the number of compounding periods per year increases without limit, continuous compounding occurs. Continuous compounding can be regarded as letting the compounding period become infinitesimally small. This can be achieved by taking the limit of $a(\tau, m)$ as $m$ goes to infinity: 
-$$
-\begin{align}
+$$\begin{align}
 \lim_{m\to\infty} a(\tau, m) &= \lim_{m\to\infty} \left( 1+\frac{r}{m} \right)^{m\tau} \\
 &=\left[ \lim_{m\to\infty} \left( 1+\frac{r}{m} \right)^{\frac{m}{r}} \right]^{m\tau \frac{r}{m}} \\
 &=e^{r\tau}
-\end{align}
-$$
+\end{align}$$
 
->##### Note on transformation (2) $\to$ (3)
+>### Note on transformation (2) $\to$ (3)
 >Recalling from calculus that:
 $$\lim_{x\to\infty}\left(1+\frac{1}{x} \right)^{x}=e$$ we can introduce variable change $\rho=\frac{m}{r}$ such that:
 $$\left[ \lim_{m\to\infty} \left( 1+\frac{r}{m} \right)^{\frac{m}{r}} \right]^{m\tau \frac{r}{m}}=\left[ \lim_{\rho\to\infty} \left( 1+\frac{1}{\rho} \right)^{\rho} \right]^{r\tau}=e^{r\tau}$$ 
