@@ -5,7 +5,7 @@ It should be pointed out that there is no any rationale to use continuously comp
 
 ### Idea of interest compounding
 The idea of interest compounding could be formalized using accumulation function $a(t,n)$ that shows how many times the initial amount $P_0$ will increase after t years:
-$$ a(\tau, m)=\left( 1+\frac{r}{m} \right)^{m\tau} $$
+$$a(\tau, m)=\left( 1+\frac{r}{m} \right)^{m\tau}$$
 where:
 $\tau$ - overall length of time the interest is applied (in years),
 $m$ - compounding frequency,
