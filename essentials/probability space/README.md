@@ -1,4 +1,4 @@
-### Probability space definition
+## Probability space definition
 
 One can notice that the formalization of stochastic (random) processes modelling in mathematical finance is commonly accompanied by the notation $(\Omega, \mathcal{F}, \mathbb{P})$. This triplet was introduced by Russian mathematician Andrey Kolmogorov in 1933 as part of his probability theory axiomatics and is called **probability space**. Kolmogorov's axiomatics is based on the **set theory**, as reflected in notation used. 
 
