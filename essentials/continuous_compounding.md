@@ -44,7 +44,7 @@ When the number of compounding periods per year increases without limit, continu
 $$\lim_{x\to\infty}\left(1+\frac{1}{x} \right)^{x}=e$$ we can introduce variable change $\rho=\frac{m}{r}$ such that:
 $$\left[ \lim_{m\to\infty} \left( 1+\frac{r}{m} \right)^{\frac{m}{r}} \right]^{mt \frac{r}{m}}=\left[ \lim_{\rho\to\infty} \left( 1+\frac{1}{\rho} \right)^{\rho} \right]^{rt}=e^{rt}$$ 
 
-
+<br><br>
 The amount $P(t)$ after $t$ periods of continuous compounding can now be expressed in terms of the initial amount $P_0$ as:
 $$P(t) =P_0e^{rt}$$ which implies that accumulation function in terms of continuous compounding has the form of:
 $$a(t)=e^{rt}$$ Hence the effective interest rate in continuous compounding setting could be defined as:
