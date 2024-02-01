@@ -35,7 +35,7 @@ When the number of compounding periods per year increases without limit, continu
 ```math
 \begin{align}\lim_{m\to\infty}a(\tau,m)&=\lim_{m\to\infty}\left(1+\frac{r}{m}\right)^{m\tau}\\
 &=\left[\lim_{m\to\infty}\left(1+\frac{r}{m}\right)^{\frac{m}{r}}\right]^{m\tau\frac{r}{m}}\\
-&=e^{r\tau}\end{align}
+&=e^{r\tau}\tag{15}\end{align}
 ```
 
 
