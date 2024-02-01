@@ -31,7 +31,7 @@ $$
 
 ## From discrete to continuous compounding
 When the number of compounding periods per year increases without limit, continuous compounding occurs. Continuous compounding can be regarded as letting the compounding period become infinitesimally small. This can be achieved by taking the limit of $a(\tau, m)$ as $m$ goes to infinity: 
-$$\lim_{m\to\infty}a(\tau, m)=\lim_{m\to\infty}\left(1+\frac{r}{m}\right)^{m\tau}$$
+$$\lim_{m\to\infty}a(\tau, m)=\lim_{m\to\infty}\left(1+\frac{r}{m}\right)^{m\tau}=\left[\lim_{m\to\infty}\left(1+\frac{r}{m}\right)^{\frac{m}{r}}\right]^{m\tau\frac{r}{m}}$$
 
 
 >### Note on transformation (2) $\to$ (3)
