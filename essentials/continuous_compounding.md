@@ -21,11 +21,11 @@ $$R_m(\tau)=a(\tau, m)-1$$
 And total accumulated value in $\tau$ years could be obtained as follows:
 
 $$
-\begin{split}
+\begin{align}
 P(\tau,m)&=P_0(1+R_m(\tau))\\
 &=P_0a(\tau, m)\\
 &=P_0\left( 1+\frac{r}{m} \right)^{m\tau}
-\end{split}
+\end{align}
 $$
 <br><br>
 
