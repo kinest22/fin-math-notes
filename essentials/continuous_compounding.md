@@ -21,18 +21,22 @@ $$R_m(\tau)=a(\tau, m)-1$$
 And total accumulated value in $\tau$ years could be obtained as follows:
 
 $$
-\begin{align}
+\begin{split}
 P(\tau,m)&=P_0(1+R_m(\tau))\\
 &=P_0a(\tau, m)\\
 &=P_0\left( 1+\frac{r}{m} \right)^{m\tau}
-\end{align}
+\end{split}
 $$
 <br><br>
 
 ## From discrete to continuous compounding
 When the number of compounding periods per year increases without limit, continuous compounding occurs. Continuous compounding can be regarded as letting the compounding period become infinitesimally small. This can be achieved by taking the limit of $a(\tau, m)$ as $m$ goes to infinity: 
 
-$$\begin{align}\lim_{m\to\infty}a(\tau,m)&=\lim_{m\to\infty}\left(1+\frac{r}{m}\right)^{m\tau}\\&=\left[\lim_{m\to\infty}\left(1+\frac{r}{m}\right)^{\frac{m}{r}}\right]^{m\tau\frac{r}{m}}\\&=e^{r\tau}\end{align}$$
+$$
+\begin{align}\lim_{m\to\infty}a(\tau,m)&=\lim_{m\to\infty}\left(1+\frac{r}{m}\right)^{m\tau}\\
+&=\left[\lim_{m\to\infty}\left(1+\frac{r}{m}\right)^{\frac{m}{r}}\right]^{m\tau\frac{r}{m}}\\
+&=e^{r\tau}\end{align}
+$$
 
 
 >### Note on transformation (2) $\to$ (3)
