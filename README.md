@@ -17,7 +17,7 @@ These are research papers devoted to specific topics in mathematical finance fie
 These are papers that are considered seminal in the academic literature due to their significant contribution to the mathematical finance evolvement.
 
 
-4. [Essentials]()<br>
+4. [Essentials](https://github.com/kinest22/fin-math-notes/tree/main/essentials)<br>
 These are handwritten notes on mathematical finance essential topics that are useful in understanding more advanced concepts one can encounter while studying materials from other sections.
 
 ## Disclaimer
