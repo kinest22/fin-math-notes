@@ -39,7 +39,7 @@ When the number of compounding periods per year increases without limit, continu
 ```
 
 
->### Note on transformation (2) $\to$ (3)
+>## Note on transformation (2) $\to$ (3)
 >Recalling from calculus that:
 $$\lim_{x\to\infty}\left(1+\frac{1}{x} \right)^{x}=e$$ we can introduce variable change $\rho=\frac{m}{r}$ such that:
 $$\left[ \lim_{m\to\infty} \left( 1+\frac{r}{m} \right)^{\frac{m}{r}} \right]^{mt \frac{r}{m}}=\left[ \lim_{\rho\to\infty} \left( 1+\frac{1}{\rho} \right)^{\rho} \right]^{rt}=e^{rt}$$ 
