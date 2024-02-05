@@ -8,7 +8,7 @@ Sample space is called **discrete** if the number of its elements is finite or c
 
 ***Example 1***. Consider an experiment in which a single coin is tossed. In this case we are dealing with the sample space which is <ins>*countable*</ins> and is given as follows: $$\Omega=\{H,T\}$$ where the outcome $H$ means that the coin is heads and the outcome $T$ means that the coin is tails.
 
-***Example 2.*** Consider now a more tricky experiment that involves endless coin toss. Sample space now can be formalized as: $$\Omega=\Bigl\{\omega:\omega=(\omega_1,\omega_2,\omega_3,...),\omega_i\in \{H,T\}\Bigr\}$$ In words, $\Omega$ is the set of all elements $\omega$, such that each $\omega$ represents a <ins>*countably infinite*</ins> tuple (sequence) of elements $\omega_i$ each of whom are either $H$ (Heads) or $T$ (Tails). It should be pointed out that $\omega$ and $\omega_i$ have different meanings here. That is, $\omega$ represents a tuple or a sequence (is enclosed in circular brackets in the notation above) and includes infinite number of $\omega_i$.
+***Example 2.*** Consider now a more tricky experiment that involves endless coin toss. Sample space now can be formalized as: $$\Omega=\{\omega:\omega=(\omega_1,\omega_2,\omega_3,...),\omega_i\in \{H,T\}\}$$ In words, $\Omega$ is the set of all elements $\omega$, such that each $\omega$ represents a <ins>*countably infinite*</ins> tuple (sequence) of elements $\omega_i$ each of whom are either $H$ (Heads) or $T$ (Tails). It should be pointed out that $\omega$ and $\omega_i$ have different meanings here. That is, $\omega$ represents a tuple or a sequence (is enclosed in circular brackets in the notation above) and includes infinite number of $\omega_i$.
 
 
 
