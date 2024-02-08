@@ -9,7 +9,7 @@ A collection of outcomes of some random trial must meet following constraints in
 
 
 ## Discrete and continuous sample spaces
-Sample space is called **discrete** if the number of its elements is finite or countable. Conversely, any sample space that is not discrete is called **non-discrete**. Specifically, if outcomes of sample space are points of a particular numerical or coordinate space, then the space is called **continuous** (or **continuum**).
+Sample space is called **discrete** if the number of its elements is finite or countable. Conversely, any sample space that is not discrete is called **non-discrete**. Specifically, if outcomes of sample space are points of a particular numerical or coordinate space, then the sample space is called **continuous** (or **continuum**).
 
 ***Example 1***. Consider an experiment in which a single coin is tossed. In this case we are dealing with the sample space which is <ins>*countable*</ins> and is given as follows: 
 ```math 
@@ -17,7 +17,7 @@ Sample space is called **discrete** if the number of its elements is finite or c
 ``` 
 where the outcome $H$ means that the coin is heads and the outcome $T$ means that the coin is tails. 
 
-***Example 2***. Consider a triangular dice with four sides. The values on the first two sides are 2 and 3 respectively. The other two sides of a dice have the same value of 8. Then for the experiment where such a triangular dice is rolled we have the countable sample space:
+***Example 2***. Consider a triangular dice with four sides. The values on the first two sides are 2 and 3 respectively. The other two sides of a dice have the same value of 5. Then for the experiment where such a triangular dice is rolled we have the <ins>*countable*</ins> sample space:
 ```math 
 \Omega=\bigl\{⚁,⚂,⚄\bigr\}
 ``` 
@@ -27,7 +27,7 @@ In this definition of $\Omega$ it is assumed that the sides that have the same v
 ```math
 \Omega=\Bigl\{\omega:\omega=(\omega_1,\omega_2,\omega_3,...),\omega_i\in \{H,T\}\Bigr\}
 ``` 
-In words, $\Omega$ is the set of all elements $\omega$, where each $\omega$ represents a <ins>*countably infinite*</ins> tuple (sequence) of elements $\omega_i$ each of whom are either $H$ (Heads) or $T$ (Tails). 
+In words, $\Omega$ is the set of all elements $\omega$, where each $\omega$ represents a tuple (sequence) of elements $\omega_i$ each of whom are either $H$ (Heads) or $T$ (Tails). 
 
 One can notice that $\omega$ and $\omega_i$ have different meanings here. While $\omega_i$ is elementary outcome of a single coin toss ($H$ or $T$),  $\omega$ represents a family of <ins>*infinite countable*</ins> tuples of these outcomes and denoted as a sequence of values $\omega_i$ enclosed in circular brackets $(\omega_1,\omega_2,\omega_3,...)$. One such sequence might begin as: $$(H,T,H,T,H,T,…)$$ while another might begin as: $$(H,H,H,H,H,H,…)$$ and so on. 
 
@@ -35,9 +35,9 @@ Due to this fact the set of all such sequences (i.e. sample space $\Omega$) is <
 
 ***Example 4***. Another example that implies uncountable sample space is an experiment that results to a real number that satisfies a certain predicate $\Phi(x)$. For example:
 ```math
-\Omega=\Bigl\{\omega:\omega\in\mathbb{R}\wedge\cos{(x)>\frac{1}{2}}\Bigr\}
+\Omega=\Bigl\{\omega:\omega\in\mathbb{R}\wedge\cos{(\omega)>\frac{1}{2}}\Bigr\}
 ``` 
-Here $\Omega$ is the set of all real numbers that satify the predicate $\Phi(x)=\cos(x)>\frac{1}{2}$. Due to the fact $\mathbb{R}$ is uncountable $\Omega$ is also uncountable. 
+Here $\Omega$ is the set of all real numbers that satify the predicate $\Phi(\omega)=\cos(\omega)>\frac{1}{2}$. Due to the fact $\mathbb{R}$ is uncountable $\Omega$ is also uncountable. 
 
 
 
